@@ -1,0 +1,18 @@
+autoinstall:
+  version: 1
+  identity:
+    realname: 'Administrator'
+    username: administrator
+    password: '$6$QfA.gJ0p/l/DhQa7$XHjpOwuOc2g3q7oKIbJhsY.9iqDScMqdAX30gAfyRxk.ucGmKTpGrQMFNQM/5CwzX.2uBPDHHsH6fFeUO./s..'
+    hostname: inazwisko.software.altkom.pl
+  storage:
+    layout:
+      name: lvm
+      password: 88F!d1!c
+  # late-commands:
+  #   - rm /target/etc/netplan/00-installer-config*yaml
+  #   - >-
+  #     printf "network:\n  version: 2\n  renderer: NetworkManager"
+  #     > /target/etc/netplan/01-network-manager-all.yaml
+  #   - curtin in-target -- apt-get install -y cloud-init
+
